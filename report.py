@@ -146,11 +146,11 @@ if b == "account":
     else:
         pass
     time.sleep(0.5)
-    f = input (" type code account type 1 or type 2 >>")
+    f = input (" type code account type 1 or type 2 >> ")
     if f =="1":
         time.sleep(1)
         print ("oked")
-        print (Fore.RED + f'[{e}]>> type 1 account code:')
+        print (Fore.RED + f' [{e}] >> type 1 account code:')
         time.sleep(1)
         print (Fore.GREEN + '')
         print ("____________________")
@@ -249,7 +249,7 @@ if b == "group":
     print()
     print(Fore.GREEN + '')
     print()
-    print(f"[{r}] >> group code:")
+    print(f" [{r}] >> group code:")
     print(Fore.BLUE + '')
     print("_______________________")
     time.sleep(1)
@@ -272,7 +272,7 @@ print("messengers reporter script")
 print()
 print()
 print(Fore.WHITE +'')
-me = input("restart -1- | exit -2-")
+me = input("restart -1- | exit -2- >>> _ ")
 print()
 print
 if me == "1":
