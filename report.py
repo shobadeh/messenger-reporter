@@ -218,7 +218,7 @@ if b == "channel":
     print("/________________________/")
     time.sleep(1)
     print(Fore.BLUE + '')
-    print("("+uuid.uuid1()+")")
+    print(uuid.uuid1())
     print(Fore.GREEN + '')
     time.sleep(0.5)
     print("/________________________/")
