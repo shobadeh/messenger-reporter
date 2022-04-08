@@ -61,11 +61,13 @@ k = (f"""
 ||||||||||       ||         ||        ||||||||||||
 ||||||||||||||                     |||||||||||||||
 ||||||||||||||||||||||||||||||||||||||||||||||||||
-|||  |  |           Artist - Scary       |  |  |||
+|||  |  |                                |  |  |||
 |||  |  |                                |  |  |||
 ||||||||||||||||||||||||||||||||||||||||||||||||||
 ||||||||||||||||||||||||||||||||||||||||||||||||||
 
+
+rubika.ir/caetorr
 
 version -1.0- script free messengers
 
@@ -234,11 +236,10 @@ if b == "group":
     print("_______________________")
     time.sleep(1)
     print(Fore.RED + '')
-    print("##")
+    i = requests.get("https://raw.githubusercontent.com/shobadeh/req/main/README.md").text
+    print (i)
     print(Fore.BLUE +'')
     print("_______________________")
-    #i = requests.get("").text
-    #print (i)
     print()
     print(Fore.YELLOW +'')
     print(f" '{u}'>>2 order code for <{r}>")
