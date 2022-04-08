@@ -67,9 +67,9 @@ k = (f"""
 ||||||||||||||||||||||||||||||||||||||||||||||||||
 
 
-rubika.ir/caetorr
+ʰᵗᵗᵖˢ://ʳᵘᵇⁱᵏᵃ.ⁱʳ/ᶜᵃᵉᵗᵒʳʳ
 
-version -1.0- script free messengers
+ᴠᴇʀꜱɪᴏɴ -1.0-  ꜱᴄʀɪᴘᴛ ꜰʀᴇᴇ ᴍᴇꜱꜱᴇɴɢᴇʀꜱ
 
 
 - {w} -
@@ -93,10 +93,10 @@ _____________________________
                              
 [{u}]>>report 'group'   type 
                              
-[{u}]>>the 'exit'       type 
+[{u}]>>the     'exit'   type 
 ——————————————————————————————
 
-[{u}]>> enter type code >> """)
+[{u}]>> ｅｎｔｅｒ tŷpĕ code >> """)
 print()
 print()
 print(Fore.GREEN + '')
