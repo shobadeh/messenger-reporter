@@ -127,6 +127,24 @@ print(Fore.BLUE + '')
 if b == "account":
     e = input("username target the create code >> ")
     print ()
+    g = requests.get(f"{e}")
+    if g.status_code == 200:
+        print ()
+        print ()
+        time.sleep(0.5)
+        print (f"account found * '{e}' ")
+        print ()
+        print ()
+    elif g.status_code == 404:
+        print ()
+        print (f"not found account! '{e}'")
+        print ()
+    elif c.status_code == 302:
+        print ()
+        print (f"not found account '{e}' ")
+        print ()
+    else:
+        pass
     time.sleep(0.5)
     f = input (" type code account type 1 or type 2 >>")
     if f =="1":
@@ -208,7 +226,7 @@ if b == "channel":
 
 if b == "group":
     print(Fore.BLUE + '')
-    r = input ("username target for code >>")
+    r = input ("username target for code >> ")
     l = requests.get(f"{r}")
     print(Fore.RED + '')
     if l.status_code == 200:
@@ -242,7 +260,7 @@ if b == "group":
     print("_______________________")
     print()
     print(Fore.YELLOW +'')
-    print(f" '{u}'>>2 order code for <{r}>")
+    print(f" '{u}'>> 2 order code for <{r}>")
     print()
     print()
     
