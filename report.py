@@ -78,7 +78,7 @@ k = (f"""
 for n in k:
     sys.stdout.write(n)
     sys.stdout.flush()
-    time.sleep(0.001)
+    time.sleep(0.009)
 #
 print()
 print()
