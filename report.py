@@ -50,7 +50,9 @@ w = str(datetime.datetime.now())
 u = input("Identity you for script code >>> ")
 print()
 print ()
+
 time.sleep(1)
+os.system("clear")
 print(Fore.BLUE + '')
 
 
