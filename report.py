@@ -274,7 +274,7 @@ print("messengers reporter script")
 print()
 print()
 print(Fore.WHITE +'')
-me = input("restart -1- | exit -2- >>> _ ")
+me = input("t.me/reporter_rubika_bot" + "\n \n   restart -1- | exit -2- >>> _ ")
 print()
 print
 if me == "1":
